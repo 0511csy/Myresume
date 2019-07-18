@@ -49,7 +49,6 @@ li{
 }
 .main>.content{
     width: 60%;
-    border: 1px solid #000;
     padding: 20px 20px;
     word-break: break-all;
 }
@@ -59,7 +58,8 @@ li{
     border-radius:50%;
 }
 .main>.side .profile,.main>.side .personal,.main>.side .contact,
-.main>.content .edu,.main>.side .experience,.main>.content .skill{
+.main>.content .edu,.main>.content .experience,.main>.content .skill,
+.main>.side .project{
     margin: 30px;
 
 }
@@ -104,7 +104,7 @@ li{
 
     color: #7a7a7a;
 }
-.main>.content  p,.side .experience p{
+.main>.content  p{
     line-height: 30px;
     color: #000;
     font-weight: bold;
@@ -115,7 +115,7 @@ li{
     background: #bcbcbc;
     margin: 10px 0;
 }
-.main>.side span.date{
+.main>.content span.date{
     display:inline-block;
     font-style: italic;
     color:#7a7a7a;
