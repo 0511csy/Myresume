@@ -59,7 +59,7 @@ li{
     border-radius:50%;
 }
 .main>.side .profile,.main>.side .personal,.main>.side .contact,
-.main>.content .edu,.main>.content .experience,.main>.content .skill{
+.main>.content .edu,.main>.side .experience,.main>.content .skill{
     margin: 30px;
 
 }
@@ -68,6 +68,7 @@ li{
     line-height: 25px;
     font-size:14px;
 }
+
 .main .title{
     margin-bottom: 20px;
 }
@@ -83,7 +84,7 @@ li{
     position: relative;
     color: #7a7a7a;
 }
-.main>.side span{
+.main>.side span.info{
     font-weight: bold;
     left: 5em;
     font-size:14px;
@@ -103,18 +104,19 @@ li{
 
     color: #7a7a7a;
 }
-.main>.content  p{
+.main>.content  p,.side .experience p{
     line-height: 30px;
     color: #000;
     font-weight: bold;
     font-size:14px;
 }
-.main>.content .line3{
+.main>.side .line3{
     height: 1px;
     background: #bcbcbc;
     margin: 10px 0;
 }
-.main>.content .experience span{
+.main>.side span.date{
+    display:inline-block;
     font-style: italic;
     color:#7a7a7a;
     font-size:12px;
@@ -130,7 +132,7 @@ li{
     border-radius: 5px;
 }
 .main>.content .skill .bar{
-    background: #ffe880;
+    background: #fff6cc;
     position: relative;
     margin-bottom: 10px;
 }
