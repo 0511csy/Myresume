@@ -59,7 +59,7 @@ li{
     border-radius:50%;
 }
 .main>.side .profile,.main>.side .personal,.main>.side .contact,
-.main>.content .edu{
+.main>.content .edu,.main>.content .experience,.main>.content .skill{
     margin: 30px;
 
 }
@@ -90,4 +90,53 @@ li{
     position: absolute;
     display: inline-block;
     color: #000;
+}
+.main>.content .edu-con{
+    display: inline-flex;
+}
+.main>.content .edu>.edu-con .line2{
+    width: 1px;
+    background:#bcbcbc;
+    margin: 0 2em;
+}
+.main>.content .edu>.edu-con li{
+
+    color: #7a7a7a;
+}
+.main>.content  p{
+    line-height: 30px;
+    color: #000;
+    font-weight: bold;
+    font-size:14px;
+}
+.main>.content .line3{
+    height: 1px;
+    background: #bcbcbc;
+    margin: 10px 0;
+}
+.main>.content .experience span{
+    font-style: italic;
+    color:#7a7a7a;
+    font-size:12px;
+    font-weight: normal;
+    padding-left: 1em;
+}
+.main>.content .skill li:nth-child(even){
+    margin-left: 40px;
+}
+.main>.content .skill .bar,.main>.content .skill .skill-bar{
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+}
+.main>.content .skill .bar{
+    background: #ffe880;
+    position: relative;
+    margin-bottom: 10px;
+}
+.main>.content .skill .skill-bar{
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+    background: #ffd600;
 }
