@@ -7,6 +7,13 @@
 li{
     list-style: none;
 }
+a{
+   text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    color: #9e7f00;
+}
 .wrapper{
     max-width:940px;
     margin: 0 auto;
@@ -59,7 +66,7 @@ li{
 }
 .main>.side .profile,.main>.side .personal,.main>.side .contact,
 .main>.content .edu,.main>.content .experience,.main>.content .skill,
-.main>.side .project{
+.main>.side .project,.main>.content .about{
     margin: 30px;
 
 }
@@ -68,7 +75,18 @@ li{
     line-height: 25px;
     font-size:14px;
 }
+/*.main>.content .about p.aboutMe{*/
 
+
+    /*font-weight: normal;*/
+/*}*/
+.main>.content .about .aboutMe{
+    line-height: 25px;
+    font-size:14px;
+    display:grid;
+    grid-template-columns: 5% 95%;
+    grid-template-areas: '.index .aboutMe-con';
+}
 .main .title{
     margin-bottom: 20px;
 }
@@ -113,7 +131,7 @@ li{
 .main>.content .line3,.main>.side .line3{
     height: 1px;
     background: #bcbcbc;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 .main>.content span.date{
     display:inline-block;
@@ -152,6 +170,8 @@ li{
 }
 .main>.side .project li{
     border-bottom:none;
+    position: relative;
+
 }
 .main>.content .display{
     width: 100%;
@@ -160,14 +180,34 @@ li{
 
 .main>.content>.display .show2,.main>.content>.display .show1{
     display: inline-flex;
-    height: 300px;
     width: 100%;
-    border-top: 5px solid #ffd600;
+    border-top:2px solid #ffd600;
 }
 .main>.content>.display  .gulu,.main>.content>.display  .blog{
-    background: #ffd600;
     width: 50%;
    margin: 5px;
+    position: relative;
+}
+.main>.content>.display .dot,.main>.side>.project span.dot2{
+    text-align: center;
+    width: 30px;
+    line-height: 30px;
+    background: #ffd600;
+    border-radius:50%;
+    color: #4a4a4a;
+    position: absolute;
+    font-weight: bold;
+}
+.main>.content>.display .dot{
+    right: 15px;
+    bottom: 15px;
+}
+.main>.side>.project h4.kkk{
+    padding-left: 3em;
+}
+.main>.side>.project span.black,.main>.content>.about span.sideBlack{
+    color: #000000;
+    font-weight: bold;
 }
 .main>.content>.display  .blog{
     width: 100%;
