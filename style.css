@@ -26,16 +26,17 @@ a:hover{
 }
 .name{
     border: 1px solid #000;
-    margin: 70px;
+    margin: 30px;
     position: relative;
 }
 .name h1{
-    padding: 15px;
+    padding: 20px 40px;
 }
 .name .pro{
+    white-space: nowrap;
     position: absolute;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform:translate(-50%,-50%);
     background: #ffd400;
     padding: 0 8px;
 }
@@ -72,16 +73,12 @@ a:hover{
 }
 .main>.side .profile p{
     text-indent: 2em;
-    line-height: 25px;
+    line-height: 20px;
     font-size:14px;
 }
-/*.main>.content .about p.aboutMe{*/
 
-
-    /*font-weight: normal;*/
-/*}*/
 .main>.content .about .aboutMe{
-    line-height: 25px;
+    line-height: 20px;
     font-size:14px;
     display:grid;
     grid-template-columns: 5% 95%;
@@ -215,4 +212,37 @@ a:hover{
 .main>.content>.display img{
     width: 100%;
     background-size: cover;
+}
+@media print{
+
+    .main>.print-side,.main>.print-content{
+        padding: 100px 15px;
+    }
+    .main>.print-side{
+        height: 100%;
+    }
+    .main>.side .print-item,.main>.content .print-item{
+        margin:25px 0;
+    }
+    .main .title>.print-line{
+        margin-top: 10px;
+    }
+    .main .print-title{
+        margin-bottom: 5px;
+    }
+    .print-wrapper{
+        height: 1120px;
+    }
+    .main>.side .profile p.print-line-height,
+    .main>.content .aboutMe.print-line-height{
+        line-height: 30px;
+    }
+    .head.print-other{
+        display:none;
+    }
+    .main>.content>.display li.print-show{
+        margin-top: 50px;
+        box-shadow:3px 3px 1px 1px rgba(255, 212, 0, 0.8);
+        border-top:none;
+    }
 }
