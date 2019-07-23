@@ -215,7 +215,8 @@ a:hover{
 }
 @media print{
 
-    .main>.print-side,.main>.print-content{
+    .main>.print-side,.main>.print-content
+    {
         padding: 100px 15px;
     }
     .main>.print-side{
@@ -231,7 +232,7 @@ a:hover{
         margin-bottom: 5px;
     }
     .print-wrapper{
-        height: 1120px;
+        height: 1122px;
     }
     .main>.side .profile p.print-line-height,
     .main>.content .aboutMe.print-line-height{
@@ -244,5 +245,11 @@ a:hover{
         margin-top: 50px;
         box-shadow:3px 3px 1px 1px rgba(255, 212, 0, 0.8);
         border-top:none;
+    }
+    .main>.side.print-side2{
+        padding: 3px 15px;
+    }
+    .main>.side .project li.print-translate{
+        padding-top: 80px;
     }
 }
