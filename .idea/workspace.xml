@@ -4,7 +4,6 @@
     <list default="true" id="026a85e6-9cc7-495e-ac36-9080170c37bc" name="Default" comment="pdf样式增加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +22,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="229">
-                  <caret line="237" column="49" lean-forward="true" selection-start-line="237" selection-start-column="49" selection-end-line="237" selection-end-column="49" />
+                <state relative-caret-position="657">
+                  <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -103,8 +102,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -192,7 +191,7 @@
       <workItem from="1563603801980" duration="12255000" />
       <workItem from="1563676921950" duration="14135000" />
       <workItem from="1563794913398" duration="9522000" />
-      <workItem from="1563880803963" duration="3629000" />
+      <workItem from="1563880803963" duration="4398000" />
     </task>
     <task id="LOCAL-00001" summary="技能">
       <created>1563452975682</created>
@@ -236,11 +235,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563810129527</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="pdf样式增加">
+      <created>1563886127324</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563886127324</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70251000" />
+    <option name="totallyTimeSpent" value="71020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-37" y="33" width="1940" height="983" extended-state="0" />
@@ -635,8 +641,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="237" column="49" lean-forward="true" selection-start-line="237" selection-start-column="49" selection-end-line="237" selection-end-column="49" />
+        <state relative-caret-position="657">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
