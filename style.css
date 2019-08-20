@@ -4,12 +4,18 @@
     box-sizing: border-box;
 
 }
+.icon {
+    width: 2.5em; height: 2.5em;
+    vertical-align: middle;
+    fill: #646464;
+    overflow: hidden;
+}
 li{
     list-style: none;
 }
 a{
    text-decoration: none;
-    color: #000000;
+    color: #c9a100;
 }
 a:hover{
     color: #9e7f00;
@@ -71,12 +77,24 @@ a:hover{
     margin: 30px;
 
 }
+
 .main>.side .profile p{
     text-indent: 2em;
     line-height: 20px;
     font-size:14px;
-}
 
+}
+.main>.side .contact_info{
+    display: grid;
+    grid-template-columns:25% 75%;
+    grid-template-areas:'.contact_name .contact_con' ;
+    font-size:14px;
+    line-height: 35px;
+}
+.main>.side .contact_con{
+    font-weight: bold;
+    color: #000;
+}
 .main>.content .about .aboutMe{
     line-height: 20px;
     font-size:14px;
@@ -213,14 +231,22 @@ a:hover{
     width: 100%;
     background-size: cover;
 }
+#resume{
+    display:none
+}
 @media print{
-
+    #resume{
+        display:grid
+    }
     .main>.print-side,.main>.print-content
     {
         padding: 100px 15px;
     }
     .main>.print-side{
-        height: 100%;
+        /*height: 100%;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
     .main>.side .print-item,.main>.content .print-item{
         margin:25px 0;
@@ -233,6 +259,7 @@ a:hover{
     }
     .print-wrapper{
         height: 1122px;
+        /*height: 100%;*/
     }
     .main>.side .profile p.print-line-height,
     .main>.content .aboutMe.print-line-height{
@@ -247,7 +274,7 @@ a:hover{
         border-top:none;
     }
     .main>.side.print-side2{
-        padding: 3px 15px;
+        padding: 5px 15px;
     }
     .main>.side .project li.print-translate{
         padding-top: 80px;
