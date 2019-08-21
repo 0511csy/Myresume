@@ -70,6 +70,7 @@ a:hover{
     width: 150px;
     height: 150px;
     border-radius:50%;
+    background-size: cover;
 }
 .main>.side .profile,.main>.side .personal,.main>.side .contact,
 .main>.content .edu,.main>.content .experience,.main>.content .skill,
