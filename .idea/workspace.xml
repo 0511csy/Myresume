@@ -209,7 +209,7 @@
       <workItem from="1566135740402" duration="1058000" />
       <workItem from="1566217660658" duration="3345000" />
       <workItem from="1566299975510" duration="7958000" />
-      <workItem from="1566386663052" duration="612000" />
+      <workItem from="1566386663052" duration="639000" />
     </task>
     <task id="LOCAL-00001" summary="技能">
       <created>1563452975682</created>
@@ -278,7 +278,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89754000" />
+    <option name="totallyTimeSpent" value="89781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -319,7 +319,8 @@
     <MESSAGE value="pdf样式" />
     <MESSAGE value="pdf样式增加" />
     <MESSAGE value="pdf样式调节" />
-    <option name="LAST_COMMIT_MESSAGE" value="pdf样式调节" />
+    <MESSAGE value="初版" />
+    <option name="LAST_COMMIT_MESSAGE" value="初版" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
