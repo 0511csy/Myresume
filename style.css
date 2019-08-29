@@ -24,6 +24,22 @@ a:hover{
     max-width:940px;
     margin: 0 auto;
 }
+.footer{
+    width: 40%;
+    background: #f7f7f7;
+    border-right:1px solid #bcbcbc;
+    border-left:1px solid #bcbcbc;
+    display:none;
+}
+.footer>.tip{
+    width: 100%;
+    background: #ffd400;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    border-left: 4px solid #9e7f00;
+    border-top-right-radius:50px;
+}
 .head{
     background: #ffd400;
     display:flex;
@@ -235,13 +251,17 @@ a:hover{
 #resume{
     display:none
 }
+
 @media print{
     #resume{
         display:grid
     }
+    .print-footer{
+        display: block;
+    }
     .main>.print-side,.main>.print-content
     {
-        padding: 100px 15px;
+        padding: 30px 15px;
     }
     .main>.print-side{
         /*height: 100%;*/
@@ -259,7 +279,7 @@ a:hover{
         margin-bottom: 5px;
     }
     .print-wrapper{
-        height: 1122px;
+        height: 1140px;
         /*height: 100%;*/
     }
     .main>.side .profile p.print-line-height,
